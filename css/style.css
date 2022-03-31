@@ -63,11 +63,13 @@ body {
   text-align: left;
   
 }
-@media (max-width: 400px) {
-  body {
-    width: 193%;
-    margin-right: 22px;
-  }
+
+
+
+@media (min-width: 992px){
+.row.bg-secondary.py-2.px-lg-5 {
+    margin-left: -14px;
+}
 }
 
 
@@ -90,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: white;
 }
 
 abbr[title],
@@ -9787,7 +9790,6 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
@@ -9941,4 +9943,41 @@ h6 {
     100% { background-position: 0 0; }
 }
 
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 450px){
+body {
+    width: 100%;
+    margin-right: 16px;
+}
+h1.m-0.display-5.text-capitalize.font-italic {
+  font-size: 109px;
+  
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.container-fluid.bg-primary.my-5.py-5.text-center {
+  width: 25pc;
+  margin-left: -40px;
+}
+
+}
+h5.mb-3 {
+  color: white;
+}
+
+h1.m-0.display-5.text-capitalize.font-italic {
+  font-size: 109px;
+  
+}
+
+@media (min-width: 768px){
+.container-fluid.bg-secondary.text-white.mt-5.py-5.px-sm-3.px-md-5 {
+    width: 1519px;
+    margin-left: -205px;
+}}
+
